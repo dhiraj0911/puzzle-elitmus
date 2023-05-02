@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(233, 189, 92);
+    background-size: cover;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add styles for the h1 element */
+h1 {
+    background-color: rgb(13, 9, 9);
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    background-color: #333;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+f {
+    background-color: #333;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+#qqq {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px auto;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    display: block;
+}
+
+#qqq:hover {
+    opacity: 0.8;
+}

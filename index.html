@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Puzzle</title>
+    <!-- Cool Google Fonts -->
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Our stylesheet -->
+    <!-- <link rel="stylesheet"  href="css/index.css"> -->
+</head>
+<body>
+    <div class="align">
+		<img class="logo" src="images/logo.svg">
+		<div class="card">
+			<div class="head">
+				<div></div>
+				<a id="login" class="selected" href="#login">Login</a>
+				<a id="register" href="#register">Register</a>
+				<div></div>
+			</div>
+			<div class="tabs">
+				<form>
+					<div class="inputs">
+						<div class="input">
+							<input placeholder="email" id="loginemail" type="text">
+							<img src="images/user.svg">
+						</div>
+						<div class="input">
+							<input placeholder="Password" id="loginpassword" type="password">
+							<img src="images/pass.svg">
+						</div>
+						<label class="checkbox">
+							<input type="checkbox">
+							<span>Remember me</span>
+						</label>
+					</div>
+					<button onclick="login()">Login</button>
+				</form>
+				<form>
+					<div class="inputs">
+						<div class="input">
+							<input placeholder="Email" id="email" type="text">
+							<img src="images/mail.svg">
+						</div>
+						<div class="input">
+							<input placeholder="Full name" id="full_name" type="text">
+							<img src="images/user.svg">
+						</div>
+						<div class="input">
+							<input placeholder="Password" id="password" type="password">
+							<img src="images/pass.svg">
+						</div>
+					</div>
+					<button onclick="register()">Register</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/signup.js"></script>
+</body>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+<script type="moodule" src="js/logic.js"></script>
+
+<script src="js/index.js"></script>
+
+</html>
