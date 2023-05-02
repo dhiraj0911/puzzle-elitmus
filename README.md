@@ -1,12 +1,27 @@
-# Interactive Puzzle Website
+# elitmus Assignment
 
-This website is an interactive puzzle designed to assess the soft skills of its users. The puzzle revolves around a central theme and incorporates direct or subtle methods of measuring soft skills such as eye for detail, perseverance, and curiosity.
+## Puzzle Application
+The puzzle game is designed to test users' visualization, imagination, and problem-solving abilities through interactive gameplay. The game provides ample clues to assist users in finding the answers. The accuracy level of the users is determined by measuring the time elapsed on each page.
 
 ## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
+
+## Soft skill
+
+- Problem-solving: The game requires players to solve puzzles and challenges, which tests their ability to analyze problems and find solutions.
+
+- Critical thinking: Players must think critically to identify patterns and connections between clues to solve the puzzles.
+ 
+- Time management: The game measures the time elapsed on each page, which requires players to manage their time effectively to complete the game.
+
+- Attention to detail: The game provides clues and information that players must pay close attention to in order to solve the puzzles.
+
+- Creativity: The game challenges players to think outside the box and use their imagination to find solutions to the puzzles.
+
+- Perseverance: The game can be challenging at times, which tests players' ability to persevere and keep trying until they find a solution.
 
 ## Features
 
@@ -22,4 +37,3 @@ To get started with this project, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Open the `index.html` file in your browser to view the website.
-3. Follow the on-screen instructions to create an account and start playing the puzzle.
