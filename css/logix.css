@@ -1,201 +1,161 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+/* CSS for the Virtual Escape Room */
 
-.title {
-
-    margin-bottom: 6mm;
-}
-
-.label {
-    font-size: 2.4rem;
-    font-weight: bold;
-    padding: .8rem;
-  }
-  
-html {
-    font-size: 62.5%;
-}
-
-h1{
-  margin-bottom: 5%;
-}
-
+/* Body styles */
 body {
-    background: #006400;
-    color: #fafafa;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.6rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-
-span {
-    border-bottom: 1px solid #534f59;
-    display: inline-block;
-    font-size: 2rem;
-    height: 2.4rem;
-    line-height: 2.4rem;
-    margin: 0 .1rem;
-    text-align: center;
-    text-transform: uppercase;
-    width: 2.4rem;
-}
-
-p {
-  font-size: 1.4rem;
-    font-weight: 300;
-    margin-bottom: 2rem;
-}
-
-.puzzle {
-    display: flex;
-    margin-bottom: 4.8rem;
-}
-
-.button {
-    background: #f4eeff;
-    border: none;
-    border-bottom: 2px solid #f4eeff;
-    cursor: pointer;
-    color: #424874;
-    font-size: 1.4rem;
-    font-weight: 300;
-    padding: .8rem;
-    transition: background .3s ease, color .3s ease;
-}
-
-.button:hover {
-    background: #a6b1e1;
-}
-
-* {
-    box-sizing: border-box;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-html {
-    font-size: 62.5%;
-}
-
-h1 {
+    }
+    
+    /* Title styles */
+    h1.title {
+    color: #55c57a;
     text-align: center;
-    margin-top: 2rem;
-}
-
-.level {
+    margin-top: 50px;
+    margin-bottom: 0;
+    }
+    
+    /* Button group styles */
+    .btn-group {
     text-align: center;
-    margin-top: 1rem;
-}
-
-.btn-group {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-}
-
-.challenge-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2rem;
-}
-
-.form-group {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2rem;
-}
-
-.score {
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.button {
-    background: #f4eeff;
+    margin-top: 20px;
+    }
+    
+    /* Button styles */
+    .button {
+    background-color: #55c57a;
+    color: #fff;
+    padding: 10px 20px;
     border: none;
-    border-bottom: 2px solid #f4eeff;
+    border-radius: 5px;
     cursor: pointer;
-    color: #424874;
-    font-size: 1.4rem;
-    font-weight: 300;
-    padding: .8rem;
-    transition: background .3s ease, color .3s ease;
-}
+    font-size: 16px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+    }
+    
+    /* Button hover styles */
+    .button:hover {
+    background-color: #2e8b57;
+    }
+    
+    /* Challenge container styles */
 
-.button:hover {
-    background: #a6b1e1;
-}
+    #challenge-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+      }
+      
+      #challenge-container a {
+        display: block;
+        margin: 20px auto;
+        padding: 10px;
+        border-radius: 10px;
+        color: #000;
+        background-color: #55c57a;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.3s ease-in-out;
+        width:60%;
+      }
+      
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background: #006400;
-    color: #fafafa;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.6rem;
-}
+    #challenge-container {
+        text-align: center;
+        margin-top: 50px;
+      }
+      
+      #challenge-container h2 {
+        color: #55c57a;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      
+      /* #challenge-container a:hover {
+        background-color: #2e8b57;
+        color: #fff;
+      } */
+      
 
-#challenge-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-  }
-  
-  #challenge-container img {
-    margin-bottom: 2rem;
-  }
-  
-  #challenge-container p {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-  
-  #challenge-container a {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-  
-  #challenge-container button {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-  
-  #challenge-container input[type="text"] {
-    height: 2.4rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-  
-
-.form-group {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 2rem;
-}
-
-.input {
-    height: 3rem; /* set the height of the input box */
-    padding: 0 1.2rem; /* add some padding to the input box */
-}
-
-.button {
-    height: 3rem; /* set the height of the submit button to match the input box */
-    padding: 0 1.2rem; /* add some padding to the submit button */
-}
+      
+      
+      #challenge-container img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-bottom: 20px;
+      }
+      
+    
+    /* Form group styles */
+    .form-group {
+    text-align: center;
+    margin-top: 30px;
+    }
+    
+    /* Label styles */
+    .label {
+    font-size: 20px;
+    margin-right: 10px;
+    }
+    
+    /* Input styles */
+    .input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+    }
+    
+    /* Submit button styles */
+    .form-group button {
+    background-color: #55c57a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    }
+    
+    /* Submit button hover styles */
+    .form-group button:hover {
+    background-color: #2e8b57;
+    }
+    
+    /* Previous and Next button styles */
+    #prev-button, #next-button {
+    background-color: #55c57a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    }
+    
+    /* Previous and Next button hover styles */
+    #prev-button:hover, #next-button:hover {
+    background-color: #2e8b57;
+    }
+    
+    /* Score styles */
+    .score {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    }
+    
+    /* Score value styles */
+    .score-value {
+    font-weight: bold;
+    }

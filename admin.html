@@ -6,6 +6,12 @@
     <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+    <style>
+    body {
+      background-color: black;
+      color: green;
+    }
+  </style>
 </head>
 
 <body>
@@ -17,7 +23,7 @@
     <script>
         // Set the configuration for your app
         // TODO: Replace with your project's config object
-        var firebaseConfig = {
+        const firebaseConfig = {
             apiKey: "AIzaSyCplUOR6881EEeII9GUnFOz-DzFkhFvCbQ",
             authDomain: "puzzle-application-62e4d.firebaseapp.com",
             databaseURL: "https://puzzle-application-62e4d-default-rtdb.firebaseio.com",
@@ -27,7 +33,7 @@
             appId: "1:867529672472:web:aa4a7272b97b27c0af806d",
             measurementId: "G-H7MQ54LLTS"
         };
-        firebase.initializeApp(config);
+        firebase.initializeApp(firebaseConfig);
 
 
 

@@ -16,7 +16,7 @@ const challenges = [
         level: 3,
         description: "Find the text present in image to puzzle find the teasure",
         imageUrl: "images/level3.jpg",
-        ans: "  "
+        ans: "idk"
     },
     {
         level: 4,
@@ -42,19 +42,6 @@ const challenges = [
         imageUrl: "images/level7.webp",
         ans: "bookshelf"
     },
-    {
-        level: 8,
-        description: "I cracked the code: Go to the bookshelf. Now it looks like I have to do a maze",
-        imageUrl: "images/level8.webp",
-        ans: "what was in my coat pocket"
-    },
-    {
-        level: 9,
-        description: "slove the puzzle to win the Treasure",
-        imageUrl: "images/level9.webp",
-        ans: "plant"
-    }
-
 ]
 
 
@@ -147,7 +134,11 @@ function myFunction() {
     console.log(input);
     console.log(modi == a)
 
-    if (modi.length == 0) {
+    if(Score == 7) {
+        alert("Congratulation!! You answered all correct");
+    }
+
+    else if (modi.length == 0) {
         alert("Please find the clue..!");
     }
 

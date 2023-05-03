@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F7F7;
+}
+
+h1 {
+    text-align: center;
+    color: #0078FF;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+span {
+    font-weight: bold;
+}
+
+#user-email, #user-full, #user-log {
+    color: #0078FF;
+}
